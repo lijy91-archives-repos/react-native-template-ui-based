@@ -3,6 +3,7 @@
 [![npm version][npm-image]][npm-url]
 [![npm][npm-dm-image]][npm-dm-url]
 [![Join the chat at https://gitter.im/blankapp/ui][gitter-image]][gitter-url]
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fblankapp%2Freact-native-template-based-on-ui.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fblankapp%2Freact-native-template-based-on-ui?ref=badge_shield)
 
 [npm-image]: https://img.shields.io/npm/v/react-native-template-based-on-ui.svg
 [npm-url]: https://www.npmjs.com/package/react-native-template-based-on-ui
@@ -74,3 +75,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fblankapp%2Freact-native-template-based-on-ui.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fblankapp%2Freact-native-template-based-on-ui?ref=badge_large)
