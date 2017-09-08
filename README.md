@@ -1,13 +1,13 @@
-# react-native-template-based-on-ui
+# react-native-template-ui-based
 
 [![npm version][npm-image]][npm-url]
 [![npm][npm-dm-image]][npm-dm-url]
 [![Join the chat at https://gitter.im/blankapp/ui][gitter-image]][gitter-url]
 
-[npm-image]: https://img.shields.io/npm/v/react-native-template-based-on-ui.svg
-[npm-url]: https://www.npmjs.com/package/react-native-template-based-on-ui
-[npm-dm-image]: https://img.shields.io/npm/dm/react-native-template-based-on-ui.svg
-[npm-dm-url]: https://www.npmjs.com/package/react-native-template-based-on-ui
+[npm-image]: https://img.shields.io/npm/v/react-native-template-ui-based.svg
+[npm-url]: https://www.npmjs.com/package/react-native-template-ui-based
+[npm-dm-image]: https://img.shields.io/npm/dm/react-native-template-ui-based.svg
+[npm-dm-url]: https://www.npmjs.com/package/react-native-template-ui-based
 [gitter-image]: https://img.shields.io/gitter/room/blankapp/ui.svg
 [gitter-url]: https://gitter.im/blankapp/ui?utm_source=share-link&utm_medium=link&utm_campaign=share-link
 
@@ -25,21 +25,21 @@ Before starting make sure you have:
 Create a new React Native App:
 
 ```bash
-$ react-native init <ProjectName> --template based-on-ui
+$ react-native init <ProjectName> --template ui-based
 ```
 
 ### Run the new app
 
-1. **Running on Android**:
+- Running on Android
 
 ```bash
 $ react-native run-android
 $ adb reverse tcp:8081 tcp:8081   # required to ensure the Android app can
 ```
 
-2. **Running on iOS:**
+- Running on iOS
 
-```
+```bash
 $ react-native run-ios
 ```
 
@@ -47,7 +47,7 @@ $ react-native run-ios
 
 If you have any suggestions or questions about this project, you can discuss it by [Gitter](https://gitter.im/blankapp/ui?utm_source=share-link&utm_medium=link&utm_campaign=share-link) or my private wechat.
 
-![](https://oeolgl6y5.qnssl.com/topic/ByRafuLR/r1no_q9R.jpg?imageView2/2/w/200)
+![](http://blankapp.org/assets/images/wechat_qrcode.png)
 
 ## License
 

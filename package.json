@@ -1,25 +1,8 @@
 {
-  "name": "react-native-template-based-on-ui",
+  "name": "react-native-template-ui-based",
   "version": "1.0.3",
   "main": "index.js",
-  "repository": "git@github.com:blankapp/react-native-template-based-on-ui.git",
+  "repository": "git@github.com:blankapp/react-native-template-ui-based.git",
   "author": "JianyingLi <lijy91@foxmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "android": "node node_modules/react-native/local-cli/cli.js run-android",
-    "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
-    "lint": "node node_modules/eslint/bin/eslint.js src/**",
-    "test": "jest"
-  },
-  "devDependencies": {
-    "babel-jest": "21.0.0",
-    "babel-plugin-transform-decorators-legacy": "^1.3.4",
-    "babel-preset-react-native": "3.0.2",
-    "eslint": "^4.5.0",
-    "eslint-config-airbnb": "^15.1.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-react": "^7.2.1"
-  }
+  "license": "MIT"
 }
