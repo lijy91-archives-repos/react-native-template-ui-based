@@ -1,0 +1,11 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "fs-extra": "^4.0.1",
+    "path": "^0.12.7"
+  }
+}
