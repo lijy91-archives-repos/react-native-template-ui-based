@@ -1,5 +1,7 @@
 # react-native-template-ui-based
 
+A React Native template for use with [@blankapp/ui](https://github.com/blankapp/ui).
+
 [![npm version][npm-image]][npm-url]
 [![npm][npm-dm-image]][npm-dm-url]
 [![Join the chat at https://gitter.im/blankapp/ui][gitter-image]][gitter-url]
@@ -26,6 +28,8 @@ Create a new React Native App:
 
 ```bash
 $ react-native init <ProjectName> --template ui-based
+$ cd <ProjectName>
+$ node scripts/cli --init
 ```
 
 ### Run the new app
