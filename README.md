@@ -1,7 +1,5 @@
 # react-native-template-ui-based
 
-A React Native template for use with [@blankapp/ui](https://github.com/blankapp/ui).
-
 [![npm version][npm-image]][npm-url]
 [![npm][npm-dm-image]][npm-dm-url]
 [![Join the chat at https://gitter.im/blankapp/ui][gitter-image]][gitter-url]
@@ -12,6 +10,28 @@ A React Native template for use with [@blankapp/ui](https://github.com/blankapp/
 [npm-dm-url]: https://www.npmjs.com/package/react-native-template-ui-based
 [gitter-image]: https://img.shields.io/gitter/room/blankapp/ui.svg
 [gitter-url]: https://gitter.im/blankapp/ui?utm_source=share-link&utm_medium=link&utm_campaign=share-link
+
+Table of Contents
+=================
+
+  * [Introduction](#introduction)
+      * [Features](#features)
+  * [Quick Start](#quick-start)
+      * [Prerequisites](#prerequisites)
+      * [Installation](#installation)
+      * [Run the new app](#run-the-new-app)
+  * [Discussion](#discussion)
+  * [License](#license)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+
+## Introduction
+
+*A React Native template for use with [@blankapp/ui](https://github.com/blankapp/ui).*
+
+### Features
+
+- Coming soon
 
 ## Quick Start
 
