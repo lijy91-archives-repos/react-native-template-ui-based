@@ -18,7 +18,6 @@ const exec = function() {
   }
 
   execSync(`rm ${path.join(appPath, 'devDependencies.json')}`);
-  execSync(`rm ${path.join(appPath, 'App.js')}`);
 
   // Setup the script rules
   let appPackage = JSON.parse(fs.readFileSync(path.join(appPath, 'package.json')));
