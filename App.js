@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Platform, StatusBar } from 'react-native';
 import { ThemeProvider } from '@blankapp/ui';
-import AppNavigator from './navigators/AppNavigator';
+import AppNavigator from './src/navigators/AppNavigator';
 
 class App extends Component {
   constructor(props) {
