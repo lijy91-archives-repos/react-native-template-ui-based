@@ -23,5 +23,5 @@ const locales = {
   'zh-Hant-TW': zhHant, // 台湾使用的繁体中文
 };
 
-// TODO: 
+// TODO:
 export default locales;
