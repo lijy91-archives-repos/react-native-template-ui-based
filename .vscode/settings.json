@@ -1,3 +1,6 @@
 {
-  "git.ignoreLimitWarning": true
+  "editor.tabSize": 2,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.renderWhitespace": "all",
+  "files.trimTrailingWhitespace": true
 }

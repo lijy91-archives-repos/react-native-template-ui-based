@@ -4,7 +4,7 @@ import Users from './apis/Users';
 
 /**
  * Example API Client
- * @module Client
+ * @exports services/API/Client
  * @class
  * @author JianyingLi <lijy91@foxmail.com>
  */
@@ -17,7 +17,7 @@ class Client {
   /**
    * Get account service instance.
    *
-   * @see Client/Account
+   * @see services/API/Client/apis/Account
    * @example
    * // ...
    * @returns {Account} Account service.
@@ -28,7 +28,7 @@ class Client {
   /**
    * Get user service instance.
    *
-   * @see Client/Users
+   * @see services/API/Client/apis/Users
    * @example
    * // ...
    * @returns {Users} User service.
@@ -39,7 +39,7 @@ class Client {
   /**
    * Get user service instance with id.
    *
-   * @see Client/Users
+   * @see services/API/Client/apis/Users
    * @example
    * // ...
    * @param {string} id - User id.

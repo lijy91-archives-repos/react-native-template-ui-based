@@ -1,6 +1,6 @@
 /**
  * Account Service
- * @exports Client/Account
+ * @exports services/API/Client/apis/Account
  * @class
  * @author JianyingLi <lijy91@foxmail.com>
  */

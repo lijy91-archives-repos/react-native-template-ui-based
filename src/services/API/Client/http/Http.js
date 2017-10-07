@@ -1,6 +1,6 @@
 /**
  * A Very simple http client
- * @exports Http
+ * @exports services/API/http/Http
  * @class
  */
 class Http {
