@@ -1,11 +1,5 @@
-import axios from 'axios';
+import Client from './Client';
 
-class API {
-  constructor() {
-    this.instance = axios.create({
-      baseURL: '',
-    });
-  }
-}
-
-export default new API();
+export default {
+  shared: new Client(),
+};

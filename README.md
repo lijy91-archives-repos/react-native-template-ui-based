@@ -15,11 +15,11 @@ Table of Contents
 =================
 
   * [Introduction](#introduction)
-      * [Features](#features)
+    * [Features](#features)
   * [Quick Start](#quick-start)
-      * [Prerequisites](#prerequisites)
-      * [Installation](#installation)
-      * [Run the new app](#run-the-new-app)
+    * [Prerequisites](#prerequisites)
+    * [Installation](#installation)
+    * [Run the new app](#run-the-new-app)
   * [Discussion](#discussion)
   * [License](#license)
 
@@ -42,14 +42,14 @@ Before starting make sure you have:
 - Installed [Yarn](https://yarnpkg.com/)
 - Installed [React Native](https://facebook.github.io/react-native/)
 
-### Installation
+### Usage
 
 Create a new React Native App:
 
 ```bash
 $ react-native init <ProjectName> --template ui-based
 $ cd <ProjectName>
-$ node scripts/cli --init
+$ scripts/init
 ```
 
 ### Run the new app
