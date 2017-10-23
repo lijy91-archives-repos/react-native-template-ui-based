@@ -1,7 +1,19 @@
 import React, { Component } from 'react';
-import { Platform, StatusBar } from 'react-native';
+import { Platform, StatusBar, Alert } from 'react-native';
 import { ThemeProvider } from '@blankapp/ui';
 import AppNavigator from './src/navigators/AppNavigator';
+
+// 覆盖 `alert`，用于修正 iOS 系统上同时使用 Modal 时的 Bug。
+alert = (text) => {
+  setTimeout(() => {
+    Alert.alert(
+      text,
+      undefined,
+      undefined,
+      { cancelable: false },
+    );
+  }, 200);
+};
 
 class App extends Component {
   constructor(props) {

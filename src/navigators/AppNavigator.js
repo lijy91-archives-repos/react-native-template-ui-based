@@ -3,7 +3,7 @@ import { StackNavigator } from 'react-navigation';
 import InitializeScreen from '../screens/Initialize';
 import HomeScreen from '../screens/Home';
 
-const routeConfigs = {
+const routeConfigMap = {
   Initialize: {
     screen: InitializeScreen,
   },
@@ -11,11 +11,11 @@ const routeConfigs = {
     screen: HomeScreen,
   },
 };
-const stackNavigatorConfig = {
+const stackConfig = {
   initialRouteName: 'Initialize',
   headerMode: 'screen',
 };
 
-const AppNavigator = StackNavigator(routeConfigs, stackNavigatorConfig);
+const AppNavigator = StackNavigator(routeConfigMap, stackConfig);
 
 export default AppNavigator;
