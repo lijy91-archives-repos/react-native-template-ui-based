@@ -22,9 +22,7 @@ const exec = function() {
   // Setup the script rules
   let appPackage = JSON.parse(fs.readFileSync(path.join(appPath, 'package.json')));
   appPackage.scripts = Object.assign(appPackage.scripts, {
-    build: 'rm -rf dist && yarn build:docs',
-    'build:docs': 'rm -rf docs && node_modules/.bin/jsdoc -c jsdoc-conf.json',
-    lint: 'node node_modules/eslint/bin/eslint.js src/**',
+    lint: 'node_modules/.bin/eslint src/**',
   });
 
   fs.writeFileSync(

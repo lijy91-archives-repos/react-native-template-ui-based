@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Platform } from 'react-native';
 import { Screen, Title, Text } from '@blankapp/ui';
-import HomeScreenStore from '../../stores/HomeScreenStore';
+import HomeScreenStore from './HomeScreenStore';
 
 class Home extends Component {
   static navigationOptions = {
