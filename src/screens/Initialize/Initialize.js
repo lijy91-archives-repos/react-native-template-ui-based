@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { ActivityIndicator, Screen } from '@blankapp/ui';
 import { NavigationActions } from 'react-navigation';
-import InitializeScreenStore from './InitializeScreenStore';
 
 class Initialize extends Component {
   static navigationOptions = {
@@ -11,8 +10,6 @@ class Initialize extends Component {
   constructor(props) {
     super(props);
     this.navigation = this.props.navigation;
-
-    this.stateStore = new InitializeScreenStore();
   }
 
   componentDidMount() {

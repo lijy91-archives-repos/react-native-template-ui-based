@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Platform } from 'react-native';
 import { Screen, Title, Text } from '@blankapp/ui';
-import HomeScreenStore from './HomeScreenStore';
 
 class Home extends Component {
   static navigationOptions = {
@@ -11,8 +10,6 @@ class Home extends Component {
   constructor(props) {
     super(props);
     this.navigation = this.props.navigation;
-
-    this.stateStore = new HomeScreenStore();
   }
 
   render() {

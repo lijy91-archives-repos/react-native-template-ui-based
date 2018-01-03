@@ -18,11 +18,17 @@ const exec = function() {
   }
 
   execSync(`rm ${path.join(appPath, 'devDependencies.json')}`);
+  execSync(`rm ${path.join(appPath, 'App.js')}`);
 
   // Setup the script rules
   let appPackage = JSON.parse(fs.readFileSync(path.join(appPath, 'package.json')));
   appPackage.scripts = Object.assign(appPackage.scripts, {
-    lint: 'node_modules/.bin/eslint src/**',
+    "run-android": "node_modules/.bin/react-native run-android",
+    "run-ios": "node_modules/.bin/react-native run-ios",
+    "run-web": "node web/scripts/start.js",
+    "clean": "watchman watch-del-all && rm -rf $TMPDIR/react-* && rm -rf node_modules/ && yarn install",
+    "lint": "node_modules/.bin/eslint src/**",
+    "test": "node_modules/.bin/jest",
   });
 
   fs.writeFileSync(
