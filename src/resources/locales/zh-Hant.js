@@ -9,12 +9,11 @@ export default {
       yes: '是',
       no: '否',
     },
-    loader: {
-      messageLoading: '正在加載...',
-      messageProgressing: '正在執行...',
-    },
   },
   screens: {
+    example: {
+      title: '示例',
+    },
     initialize: {
       title: '初始化',
     },

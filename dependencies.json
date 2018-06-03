@@ -1,10 +1,11 @@
 {
-  "@blankapp/ui": "^1.0.5",
-  "lodash": "^4.17.4",
-  "prop-types": "^15.6.0",
-  "react": "16.2.0",
-  "react-dom": "^16.2.0",
-  "react-native": "^0.51.0",
-  "react-native-web": "^0.3.0-rc.4",
-  "react-navigation": "^1.0.0-beta.22"
+  "@blankapp/ui": "git+https://github.com/blankapp/ui.git#develop",
+  "@blankapp/ui-pro": "git+https://github.com/blankapp/ui-pro.git#develop",
+  "prop-types": "^15.6.1",
+  "react": "16.4.0",
+  "react-art": "^16.4.0",
+  "react-dom": "^16.4.0",
+  "react-native": "^0.55.4",
+  "react-native-web": "^0.7.3",
+  "react-navigation": "^2.0.4"
 }

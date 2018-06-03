@@ -9,12 +9,11 @@ export default {
       yes: 'Yes',
       no: 'No',
     },
-    loader: {
-      messageLoading: 'Loading...',
-      messageProgressing: 'Progressing...',
-    },
   },
   screens: {
+    example: {
+      title: 'Example',
+    },
     initialize: {
       title: 'Initialize',
     },

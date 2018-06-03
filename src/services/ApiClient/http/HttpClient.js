@@ -1,11 +1,11 @@
 /**
  * A Very simple http client
- * @exports services/API/http/Http
+ * @exports services/ApiClient/http/HttpClient
  * @class
  */
-class Http {
+class HttpClient {
   /**
-   * Create a new instance of Http.
+   * Create a new instance of HttpClient.
    *
    * @example
    * // ...
@@ -14,7 +14,10 @@ class Http {
    */
   constructor(defaults) {
     this.defaults = defaults;
-    this.interceptors = { request: [], response: [] };
+    this.interceptors = {
+      request: [],
+      response: [],
+    };
   }
 
   /**
@@ -52,9 +55,13 @@ class Http {
       response = interceptor(response);
     });
 
+    if (!response.ok) {
+      throw new Error(`${response.status} - ${response.statusText}`);
+    }
+
     const responseJson = await response.json();
-    return responseJson.data;
+    return responseJson;
   }
 }
 
-export default Http;
+export default HttpClient;

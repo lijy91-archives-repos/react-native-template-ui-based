@@ -1,26 +1,13 @@
 import { Platform } from 'react-native';
-import { StackNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation';
 import BrowserAppContainer from './BrowserAppContainer';
 
-import InitializeScreen from '../screens/Initialize';
-import HomeScreen from '../screens/Home';
+import routeConfigMap from './routeConfigMap';
+import stackConfig from './stackConfig';
 
-const routeConfigMap = {
-  Initialize: {
-    screen: InitializeScreen,
-    path: 'init',
-  },
-  Home: {
-    screen: HomeScreen,
-    path: '',
-  },
-};
-const stackConfig = {
-  initialRouteName: 'Initialize',
-  headerMode: 'screen',
-};
-
-const DefaultNavigator = StackNavigator(routeConfigMap, stackConfig);
+const DefaultNavigator = createStackNavigator(routeConfigMap, stackConfig);
+// eslint-disable-next-line
 const AppNavigator = Platform.OS === 'web' ? BrowserAppContainer(DefaultNavigator) : DefaultNavigator;
 
-export default AppNavigator;
+export default DefaultNavigator;
+

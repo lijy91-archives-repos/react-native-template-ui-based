@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import { ActivityIndicator, Screen } from '@blankapp/ui';
-import { NavigationActions } from 'react-navigation';
+import { NavigationActions, StackActions } from 'react-navigation';
+import { t } from '../../utilities/I18n';
 
 class Initialize extends Component {
-  static navigationOptions = {
-    header: null,
+  // eslint-disable-next-line
+  static navigationOptions = ({ navigation, screenProps }) => {
+    return {
+      title: t('screens.initialize.title'),
+      header: null,
+    };
   };
 
   constructor(props) {
@@ -14,12 +19,14 @@ class Initialize extends Component {
 
   componentDidMount() {
     setTimeout(() => {
-      const resetAction = NavigationActions.reset({
+      const routeName = 'Home';
+
+      this.navigation.dispatch(StackActions.reset({
         index: 0,
-        actions: [NavigationActions.navigate({ routeName: 'Home' })],
-      });
-      this.navigation.dispatch(resetAction);
-    }, 600);
+        actions: [NavigationActions.navigate({ routeName })],
+      }));
+      this.navigation.dispatch(NavigationActions.navigate({ routeName }));
+    }, 300);
   }
 
   render() {
