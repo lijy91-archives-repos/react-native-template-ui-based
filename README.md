@@ -27,11 +27,12 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Introduction
 
-*A React Native template for use with [@blankapp/ui](https://github.com/blankapp/ui).*
+*A React Native cross-platform app template for use with [@blankapp/ui](https://github.com/blankapp/ui).*
 
 ### Features
 
-- Coming soon
+- Multi-language support.
+- ...
 
 ## Quick Start
 
@@ -47,9 +48,8 @@ Before starting make sure you have:
 Create a new React Native App:
 
 ```bash
-$ react-native init <ProjectName> --template ui-based
-$ cd <ProjectName>
-$ scripts/init
+$ react-native init MyApp --template ui-based
+$ cd MyApp && ./scripts/init
 ```
 
 ### Run the new app
@@ -65,6 +65,18 @@ $ adb reverse tcp:8081 tcp:8081   # required to ensure the Android app can
 
 ```bash
 $ react-native run-ios
+```
+
+- Running on Web
+
+```bash
+$ yarn run-web
+```
+
+Or
+
+```bash
+$ node web/scripts/start.js
 ```
 
 ## Discussion
