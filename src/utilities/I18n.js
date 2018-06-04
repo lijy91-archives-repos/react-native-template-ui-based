@@ -1,4 +1,3 @@
-import { LocaleConfig } from 'react-native-calendars';
 import defaultLocales from '../resources/locales';
 
 let language = 'en';
@@ -50,8 +49,6 @@ const t = (key, args = {}) => {
  */
 const useLanguage = (l) => {
   language = l;
-  LocaleConfig.locales[l] = t('components.calendars');
-  LocaleConfig.defaultLocale = l;
 };
 
 const I18n = {

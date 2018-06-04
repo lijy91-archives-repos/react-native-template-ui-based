@@ -70,7 +70,7 @@ $ react-native run-ios
 - Running on Web
 
 ```bash
-$ yarn run-web
+$ yarn run-web
 ```
 
 Or

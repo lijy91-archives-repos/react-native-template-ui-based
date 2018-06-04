@@ -3,14 +3,12 @@ import { Platform, StatusBar } from 'react-native';
 import Theme, { ThemeProvider } from '@blankapp/ui';
 import defaultTheme from '@blankapp/ui/src/resources/themes/default';
 import defaultThemePro from '@blankapp/ui-pro/src/resources/themes/default';
-import defaultThemeExtend from './resources/themes/default';
 import AppNavigator from './navigators/AppNavigator';
 import NavigationService from './navigators/NavigationService';
 
 Theme.registerTheme('default', [
   defaultTheme,
   defaultThemePro,
-  defaultThemeExtend,
 ]);
 
 class App extends Component {
