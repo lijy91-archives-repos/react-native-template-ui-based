@@ -2,14 +2,14 @@
 
 [![npm version][npm-image]][npm-url]
 [![npm][npm-dm-image]][npm-dm-url]
-[![Join the chat at https://gitter.im/blankapp/ui][gitter-image]][gitter-url]
+[![Join the chat at https://t.me/reactnativesz][telegram-image]][telegram-url]
 
 [npm-image]: https://img.shields.io/npm/v/react-native-template-ui-based.svg
 [npm-url]: https://www.npmjs.com/package/react-native-template-ui-based
 [npm-dm-image]: https://img.shields.io/npm/dm/react-native-template-ui-based.svg
 [npm-dm-url]: https://www.npmjs.com/package/react-native-template-ui-based
-[gitter-image]: https://img.shields.io/gitter/room/blankapp/ui.svg
-[gitter-url]: https://gitter.im/blankapp/ui?utm_source=share-link&utm_medium=link&utm_campaign=share-link
+[telegram-image]: https://img.shields.io/badge/chat-on%20telegram-blue.svg
+[telegram-url]: https://t.me/reactnativesz
 
 Table of Contents
 =================
@@ -81,7 +81,7 @@ $ node web/scripts/start.js
 
 ## Discussion
 
-If you have any suggestions or questions about this project, you can discuss it by [Gitter](https://gitter.im/blankapp/ui?utm_source=share-link&utm_medium=link&utm_campaign=share-link) or my private wechat.
+If you have any suggestions or questions about this project, you can discuss it by [Telegram][telegram-url] or my private wechat.
 
 ![](http://blankapp.org/assets/images/wechat_qrcode.png)
 
